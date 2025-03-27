@@ -1,0 +1,37 @@
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.dark .video-card {
+  background-color: #1f1f1f;
+  border-color: #333;
+}
+
+.dark .video-channel,
+.dark .video-description {
+  color: #aaa;
+}
+
+button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1001;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.dark button {
+  background-color: #333;
+  color: #f1f1f1;
+}

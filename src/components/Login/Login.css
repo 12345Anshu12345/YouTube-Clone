@@ -1,0 +1,80 @@
+/* Centers the form on the screen */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+}
+
+/* Login form styling */
+.login-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Ensures everything stacks vertically */
+  align-items: center;
+}
+
+/* Title */
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Form input fields */
+.form-group {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px; /* Adds spacing between inputs */
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  color: black;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Button styling and placement fix */
+.login-button {
+  top: 61.5%;
+  right: 39%;
+  width: 22%;
+  padding: 12px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px; /* This ensures space below the password field */
+}
+
+.login-button:hover {
+  background-color: #138496;
+}

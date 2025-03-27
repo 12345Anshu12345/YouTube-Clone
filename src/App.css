@@ -1,0 +1,39 @@
+/* Responsive layout adjustments */
+@media (max-width: 1200px) {
+  /* Desktop adjustments */
+  .search {
+    width: 400px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Tablet adjustments */
+  .search {
+    width: 250px !important;
+    margin-left: 100px !important;
+  }
+  
+  .voice, .notifi_icon, .accountimage {
+    display: none;
+  }
+  
+  input[type="upload"] {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Mobile adjustments */
+  .logo {
+    display: none;
+  }
+  
+  .search {
+    width: 150px !important;
+    margin-left: 50px !important;
+  }
+  
+  .threedot {
+    margin-left: 10px;
+  }
+}
